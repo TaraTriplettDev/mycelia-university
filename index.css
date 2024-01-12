@@ -31,6 +31,16 @@ li {
 
 a {
   font-size: 1em;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+a:active {
+  color: rgb(230, 230, 0);
 }
 
 .grid-container {
