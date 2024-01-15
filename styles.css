@@ -60,3 +60,13 @@ a:active {
 button {
   font-size: 16px;
 }
+
+#myBtn {
+  color: #551A8B;
+  font-size: 3em;
+}
+
+#myBtn:focus, #myBtn:hover {
+  color: blue;
+  cursor: pointer;
+}
